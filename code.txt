@@ -37,5 +37,6 @@ Text(104,5," An apartment will be provided for
 Text(116,5," you and your family in East Grestin.
 Text(128,5," Expect a Class-8 dwelling.
 Pause 
+TextColor(RED
 Text(144,5," Glory to Arstotzka.
 Pause 
