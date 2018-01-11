@@ -1,17 +1,41 @@
+Goto B
+
 "Verify time"
 
 ClrHome
 getDate→L₁
-Menu("Is the date "+toString(L₁(2))+"-"+toString(L₁(3))+"-"+toString(L₁(1))+"?","Yes.",B,"No.",A
+Menu("Is the date "+toString(L₁(2))+"-"+toString(L₁(3))+"-"+toString(L₁(1))+"?","Yes.",B,"No.",A)
 Lbl A
-Disp "Please set the date in the","[mode] menu. Once you have","done that, run this again.","
+Disp "Please set the date in the","[mode] menu. Once you have","done that, run this again.",""
 Stop
-
-"Verify model"
 
 "Reset graph screen"
 
+Lbl B
 RecallGDB 1
 PlotsOff 
-BackgroundOn BLACK
+BackgroundOn 1
+
+"Introduction to game."
+
 DispGraph
+Pause 
+BackgroundOn BLACK
+TextColor(BLACK
+Text(4,5," Congratulations."
+Pause 
+Text(20,5," The October labor lottery is"
+Text(32,5," complete.
+Pause 
+Text(48,5," Your name was pulled.
+Pause 
+Text(64,5," For immediate placement, report to
+Text(76,5," the Ministry of Administration at
+Text(88,5," Grestin Border Checkpoint.
+Pause 
+Text(104,5," An apartment will be provided for
+Text(116,5," you and your family in East Grestin.
+Text(128,5," Expect a Class-8 dwelling.
+Pause 
+Text(144,5," Glory to Arstotzka.
+Pause 
