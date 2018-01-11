@@ -1,0 +1,17 @@
+"Verify time"
+
+ClrHome
+getDate→L₁
+Menu("Is the date "+toString(L₁(2))+"-"+toString(L₁(3))+"-"+toString(L₁(1))+"?","Yes.",B,"No.",A
+Lbl A
+Disp "Please set the date in the","[mode] menu. Once you have","done that, run this again.","
+Stop
+
+"Verify model"
+
+"Reset graph screen"
+
+RecallGDB 1
+PlotsOff 
+BackgroundOn BLACK
+DispGraph
