@@ -16,27 +16,33 @@ RecallGDB 1
 PlotsOff 
 BackgroundOn 1
 
-"Introduction to game."
+"Introduction to game"
 
 DispGraph
 Pause 
 BackgroundOn BLACK
-TextColor(BLACK
-Text(4,5," Congratulations."
+TextColor(BLACK)
+Text(4,5," Congratulations.")
 Pause 
-Text(20,5," The October labor lottery is"
-Text(32,5," complete.
+Text(20,5," The October labor lottery is")
+Text(32,5," complete.")
 Pause 
-Text(48,5," Your name was pulled.
+Text(48,5," Your name was pulled.")
 Pause 
-Text(64,5," For immediate placement, report to
-Text(76,5," the Ministry of Administration at
-Text(88,5," Grestin Border Checkpoint.
+Text(64,5," For immediate placement, report to")
+Text(76,5," the Ministry of Administration at")
+Text(88,5," Grestin Border Checkpoint.")
 Pause 
-Text(104,5," An apartment will be provided for
-Text(116,5," you and your family in East Grestin.
-Text(128,5," Expect a Class-8 dwelling.
+Text(104,5," An apartment will be provided for")
+Text(116,5," you and your family in East Grestin.")
+Text(128,5," Expect a Class-8 dwelling.")
 Pause 
-TextColor(RED
-Text(144,5," Glory to Arstotzka.
+TextColor(RED)
+Text(144,5," Glory to Arstotzka.")
+Pause 
+ClrDraw
+
+"Open booth"
+
+BackgroundOn 3
 Pause 
