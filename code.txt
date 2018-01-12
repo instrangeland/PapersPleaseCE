@@ -2,7 +2,6 @@
 
 "St. Marmero,Glorian,Outer Grouse,Orvech Vonor,East Grestin,Paradizna,Enkyo,Haihan,Tsunkeido,Yurko City,Vedor,West Grestin,Skal,Lorndaz,Mergerous,True Glorian,Lesrenadi,Bostan,Great Rapid,Shingleton,Korista City"→Str9
 
-
 Goto B
 
 " Verify time
@@ -60,12 +59,16 @@ ClrDraw
 " G = Passport Expiration Day (Example: 16)
 " H = Passport Expiration Month (Example: 8)
 " I = Passport Expiration Year (Example: 1984)
-" J = Passport Number (Example: LF24V-BU3UH)
-" K = Height (Example: 175)
-" L = Weight (Example: 81)
-" M = Description (Example: 0, Short Light Hair)
-" N = ID Supplement Expiration Day (Example: 15)
-" O = ID Supplement Expiration Month (Example: 1)
-" P = ID Supplement Expiration Year (Example: 1983)
-
-
+" Str2 = Passport Number (Example: LF24V-BU3UH)
+" J = Height (Example: 175)
+" K = Weight (Example: 81)
+" L = Description (Example: 0, Short Light Hair)
+" M = ID Supplement Expiration Day (Example: 15)
+" N = ID Supplement Expiration Month (Example: 1)
+" O = ID Supplement Expiration Year (Example: 1983)
+" P = Entry Permit Purpose (Example: Transit)
+" Q = Entry Permit Length (Example: 14)
+" R = Entry Permit Day (Example: 22)
+" S = Entry Permit Month (Example: 1)
+" T = Entry Permit Year (Example: 1983)
+" U = ID Card District
