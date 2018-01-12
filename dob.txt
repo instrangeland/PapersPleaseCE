@@ -1,0 +1,21 @@
+getDate→⌊DATE
+randInt(⌊DATE(1)-80,⌊DATE(1)-18)→A
+randInt(1,12)→B
+If B=9 or B=4 or B=6 or B=11
+Then
+randInt(1,30)→C
+Goto A
+End
+If B=2 and remainder(A,4)=0
+Then
+randInt(1,29)→C
+Goto A
+End
+If B=2 and remainder(A,4)≠0
+Then
+randInt(1,28)→C
+Goto A
+End
+randInt(1,31)→C
+Lbl A
+toString(B)+"-"+toString(C)+"-"+toString(A)→Str3
