@@ -1,3 +1,8 @@
+" Initialize Variables
+
+"St. Marmero,Glorian,Outer Grouse,Orvech Vonor,East Grestin,Paradizna,Enkyo,Haihan,Tsunkeido,Yurko City,Vedor,West Grestin,Skal,Lorndaz,Mergerous,True Glorian,Lesrenadi,Bostan,Great Rapid,Shingleton,Korista City"→Str9
+
+
 Goto B
 
 " Verify time
