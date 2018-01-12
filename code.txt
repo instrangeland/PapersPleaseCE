@@ -1,6 +1,6 @@
 Goto B
 
-"Verify time"
+" Verify time
 
 ClrHome
 getDate→L₁
@@ -9,14 +9,14 @@ Lbl A
 Disp "Please set the date in the","[mode] menu. Once you have","done that, run this again.",""
 Stop
 
-"Reset graph screen"
+" Reset graph screen
 
 Lbl B
 RecallGDB 1
 PlotsOff 
 BackgroundOn 1
 
-"Introduction to game"
+" Introduction to game
 
 DispGraph
 Pause 
@@ -42,7 +42,24 @@ Text(144,5," Glory to Arstotzka.")
 Pause 
 ClrDraw
 
-"Open booth"
+" Generate character information
 
-BackgroundOn 3
-Pause 
+" Str1 = Name (Example: Noah Kapsales)
+" A = Birth Day (Example: 14)
+" B = Birth Month (Example: 9)
+" C = Birth Year (Example: 1948)
+" D = Sex (Example: 0, Male)
+" E = Country (Example: 0, Antegria)
+" F = Issuing City (Example: Shingleton)
+" G = Passport Expiration Day (Example: 16)
+" H = Passport Expiration Month (Example: 8)
+" I = Passport Expiration Year (Example: 1984)
+" J = Passport Number (Example: LF24V-BU3UH)
+" K = Height (Example: 175)
+" L = Weight (Example: 81)
+" M = Description (Example: 0, Short Light Hair)
+" N = ID Supplement Expiration Day (Example: 15)
+" O = ID Supplement Expiration Month (Example: 1)
+" P = ID Supplement Expiration Year (Example: 1983)
+
+
