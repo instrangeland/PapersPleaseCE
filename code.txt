@@ -45,6 +45,7 @@ ClrDraw
 " Generate character information
 
 " Str1 = Name (Example: Noah Kapsales)
+" Str9 = Issuing Cities (Example: West Grestin)
 " A = Birth Day (Example: 14)
 " B = Birth Month (Example: 9)
 " C = Birth Year (Example: 1948)
