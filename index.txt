@@ -1,0 +1,10 @@
+" Change Str1 to string you want to index
+" Change L₁ to list you want to store index to
+1→B
+For(A,1,length(Str1))
+If sub(Str1,A,1)=","
+Then
+A→L₁(B)
+B+1→B
+End
+End
