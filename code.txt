@@ -46,7 +46,6 @@ ClrDraw
 
 " Generate character information
 
-" Str1 = Name (Example: Noah Kapsales)
 " A = Birth Day (Example: 14)
 " B = Birth Month (Example: 9)
 " C = Birth Year (Example: 1948)
@@ -57,8 +56,8 @@ ClrDraw
 " H = Passport Expiration Month (Example: 8)
 " I = Passport Expiration Year (Example: 1984)
 " Str2 = Passport Number (Example: LF24V-BU3UH)
-" Str7 = Female Names (Example: Janet Majors, Magenta)
-" Str8 = Male Names (Example: Brad Majors, Tim Curry)
+" Str7 = Female Names (Example: Jane Doe)
+" Str8 = Male Names (Example: John Doe)
 " J = Height (Example: 175)
 " K = Weight (Example: 81)
 " L = Description (Example: 0, Short Light Hair)
