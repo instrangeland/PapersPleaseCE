@@ -2,7 +2,7 @@
 Lbl A
 Goto C
 
-" Verify time
+" Verify time 
 
 ClrHome
 getDate→L₁
@@ -11,14 +11,14 @@ Lbl B
 Disp "Please set the date in the","[mode] menu. Once you have","done that, run this again.",""
 Stop
 
-" Reset graph screen
+" Reset graph screen 
 
 Lbl C
 RecallGDB 1
 PlotsOff 
 BackgroundOn 1
 
-" Introduction to game
+" Introduction to game 
 
 DispGraph
 Pause 
@@ -44,9 +44,9 @@ Text(144,5," Glory to Arstotzka.")
 Pause 
 ClrDraw
 
-" Generate character information
+" Generate character information 
 
-" A = Birth Day (Example: 14)
+" A = Birth Day (Example: 14) 
 " B = Birth Month (Example: 9)
 " C = Birth Year (Example: 1948)
 " D = Sex (Example: 0, Male)
