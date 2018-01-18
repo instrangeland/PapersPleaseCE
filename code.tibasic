@@ -1,4 +1,13 @@
 ﻿ClrHome
+SetUpEditor LDEV
+2→dim(LDEV
+LDEV→LDEVL
+Archive LDEV
+
+"Dev Options (LDEV)
+"1 = Skip Intro
+"2 = Display Lists
+
 
 Goto Z
 Lbl A
@@ -11,6 +20,8 @@ BackgroundOn 1
 
 DispGraph
 Pause 
+If LDEVL(1)=0
+Then
 BackgroundOn BLACK
 TextColor(BLACK)
 Text(4,5," Congratulations.")
@@ -32,6 +43,7 @@ TextColor(RED)
 Text(144,5," Glory to Arstotzka.")
 Pause 
 ClrDraw
+End
 
 " Character Data (L₁)
 "
@@ -45,7 +57,7 @@ ClrDraw
 " 8  = Passport Expiration Month (Example: 8)
 " 9  = Passport Expiration Year (Example: 1984)
 " 10 = Height (Example: 175)
-" 11 = Weight (Example: 81)
+" 11 = Weight (Example: 81) (in pounds)
 " 12 = Description (Example: Short Light Hair)
 " 13 = ID Supplement Expiration Day (Example: 15)
 " 14 = ID Supplement Expiration Month (Example: 1)
@@ -114,6 +126,13 @@ If L₁(5)=5
 randInt(15,17)→L₁(6)
 If L₁(5)=6
 randInt(18,19)→L₁(6)
+
+"Generate Weight
+Repeat Ans>120 and Ans<280
+cumSum(randInt(-5,20,25))→L₂
+L₂(dim(L₂
+End
+Ans→11
 
 Stop
 
