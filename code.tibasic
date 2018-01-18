@@ -59,6 +59,9 @@ ClrDraw
 " Str2 = Passport Number (Example: LF24V-BU3UH)
 
 " Premanent Data
+" Game Data Setup
+21→dim(L₁
+
 "
 " ⌊ISSIDX = Issuing City Index
 " Str7 = Female Names (Example: Jane Doe)
@@ -99,22 +102,12 @@ randInt(0,1)→L₁(4)
 randInt(0,6)→L₁(5)
 
 " Generate Issuing City
-
-If L₁(5)=0
-randInt(0,2)→L₁(6)
-If L₁(5)=1
-randInt(3,5)→L₁(6)
-If L₁(5)=2
-randInt(6,8)→L₁(6)
-If L₁(5)=3
-randInt(9,11)→L₁(6)
-If L₁(5)=4
-randInt(12,14)→L₁(6)
-If L₁(5)=5
-randInt(15,17)→L₁(6)
 If L₁(5)=6
+Then
 randInt(18,19)→L₁(6)
-
+Else
+randInt(3*L₁(5),3*L₁(5)+2)→L₁(6)
+End
 Stop
 
 Lbl Z
