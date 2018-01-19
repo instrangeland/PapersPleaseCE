@@ -1,0 +1,10 @@
+Ans→Str9
+If not(Length(Str9)>37)
+Then
+If not(L₆(1)>12)
+Then
+For(A,1,Length(Str9))
+Text((L₆(1)-1)*13,(A-1)*7,sub(Str9,A,1)
+End
+End
+End
